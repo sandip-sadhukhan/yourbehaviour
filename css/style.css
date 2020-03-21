@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c4c4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+  text-align: center;
+  margin: 50px auto;
+}
+.center input {
+  font-size: 20px;
+  text-align: center;
+  max-width: 470px;
+  width: 80%;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.center input:focus {
+  outline: none !important;
+}
+#header {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+}
+#startBtn {
+  margin: 20px auto;
+  padding: 10px 50px;
+  border-radius: 4px;
+  background-color: rgb(37, 120, 245);
+  color: #fff;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+#startBtn:hover {
+  background-color: rgb(12, 82, 187);
+}
+
+#startBtn:focus {
+  outline: none !important;
+}
+
+#progressDiv p {
+  padding-bottom: 8px;
+}
+
+#progressBar {
+  /* background-color: yellow; */
+  width: 300px;
+  height: 25px;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#showResult {
+  background-color: rgba(128, 128, 128, 0.9);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px 30px;
+  border-radius: 6px;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+}
+#showResult h3 {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    font-size: 26px;
+  }
+}
