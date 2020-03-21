@@ -30,6 +30,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
   letter-spacing: 4px;
+  text-shadow: 2px 3px 10px rgba(128, 128, 128, 0.9);
 }
 #startBtn {
   margin: 20px auto;
