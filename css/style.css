@@ -76,6 +76,10 @@ body {
 #showResult h3 {
   padding-bottom: 20px;
 }
+#copyright {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+}
 
 @media only screen and (max-width: 600px) {
   #header {
